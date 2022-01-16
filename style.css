@@ -1,4 +1,50 @@
 h1 {
+  color: black;
   text-align: center;
-  color: red;
+  font-size: 30px;
+}
+
+h2 {
+  margin-bottom: 1px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  color: gray;
+}
+
+.weather-app {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.city-temp {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.advice {
+  position: relative;
+  top: -30px;
+  font-size: 15px;
+}
+
+.card {
+  margin-top: 20px;
+  margin-left: -15px;
+  border: none;
 }
